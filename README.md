@@ -41,9 +41,9 @@ Cada perfil tiene acceso únicamente a las funciones autorizadas.
 
 # Instalación
 
-# 1. Clonar repositorio
+# 1.  repositorio
 
-git clone https://github.com/Dainners/ProyectoSeguridad.git
+https://github.com/Dainners/ProyectoSeguridad.git
 
 ### 2. Crear entorno virtual
 
