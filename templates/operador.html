@@ -1,0 +1,51 @@
+{% extends 'plantilla.html' %}
+
+{% block title %}Operador{% endblock %}
+
+{% block content %}
+
+<h2>Panel del Operador</h2>
+
+<form method="POST" class="card p-4">
+
+    <div class="mb-2">
+        <label>ID:</label>
+        <input type="text" name="id" class="form-control" required>
+    </div>
+
+    <div class="mb-2">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" class="form-control" required>
+    </div>
+
+    <div class="mb-2">
+        <label>Apellido:</label>
+        <input type="text" name="apellido" class="form-control" required>
+    </div>
+
+    <div class="mb-2">
+        <label>Tipo:</label>
+        <select name="tipo" class="form-select">
+            <option value="pago">Pago</option>
+            <option value="credito">Crédito</option>
+        </select>
+    </div>
+
+    <div class="mb-2">
+        <label>Valor:</label>
+        <input type="text" name="valor" class="form-control" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Guardar
+    </button>
+
+</form>
+
+{% if mensaje %}
+<div class="alert alert-success mt-3">
+    {{ mensaje }}
+</div>
+{% endif %}
+
+{% endblock %}
