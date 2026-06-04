@@ -43,7 +43,7 @@ Cada perfil tiene acceso únicamente a las funciones autorizadas.
 
 # 1. Clonar repositorio
 
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/Dainners/ProyectoSeguridad.git
 
 ### 2. Crear entorno virtual
 
